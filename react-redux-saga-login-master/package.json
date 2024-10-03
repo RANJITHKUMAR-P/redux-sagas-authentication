@@ -1,0 +1,30 @@
+{
+  "name": "react-redux-saga-login",
+  "version": "0.0.12",
+  "description": "a React login form using Redux, Redux-Saga pattern, and authenticate with Google firebase",
+  "main": "dist/src/index.js",
+  "repository": "",
+  "scripts": {
+    "start": "babel-node src/index.js",
+    "build": "babel -d dist --minified --ignore tests,node_modules . ",
+    "test:watch": "mocha tests/**/*.js --require babel-polyfill --compilers js:babel-register"
+  },
+  "author": "Gino Wu",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-root-import": "^5.1.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "chai": "^4.1.2",
+    "firebase": "^4.12.0",
+    "mocha": "^5.0.5",
+    "react": "^16.2.0",
+    "react-redux": "^5.0.7",
+    "redux": "^3.7.2",
+    "redux-saga": "^0.16.0"
+  }
+}
